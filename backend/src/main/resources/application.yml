@@ -1,13 +1,13 @@
 spring:
   datasource:
-#    url: jdbc:postgresql://localhost:5439/fooddb?user=fooduser&password=foodpassword
-    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres?user=postgres.cbpdizdmebasivufwuer&password=IbrvrxBg6KQ5qvxS
+    url: jdbc:postgresql://localhost:5432/app_db?useSSL=false&allowPublicKeyRetrieval=True
+    username: root
+    password: admin123
   jpa:
     hibernate:
       ddl-auto: update
 server:
-#  address: 192.168.102.28
   port: 8086
 application:
   app:
-    jwtSecrect: ${JWT_SECRET}
+    jwtSecrect: heeheeh
