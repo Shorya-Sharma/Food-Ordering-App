@@ -113,7 +113,6 @@ backend/.DS_Store
 backend/HELP.md
 backend/mvnw.cmd
 backend/mvnw
-backend/.env
 backend/.gradle/
 backend/build/
 
@@ -129,8 +128,6 @@ Thumbs.db
 # Logs
 *.log
 
-# Environment files
-.env
 
 # Misc
 *.swp
